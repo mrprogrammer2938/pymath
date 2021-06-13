@@ -6,9 +6,7 @@ Installing:
             
             cd pymath
             
-            bash install.sh
-            
-           ./setup
+            python3 setup.py
 --------------------------------------------------------------------------------
 Uninstalling:
               ./uninstall
