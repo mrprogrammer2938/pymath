@@ -2,13 +2,20 @@
 
 This code write by [Mr.nope](https://github.com/mrprogrammer2938)
 
-**Installing**
+*Installing*
 ```
 git clone https://github.com/mrprogrammer2938/pymath
 
 cd pymath
 
 python3 setup.py
+```
+
+**Start**
+```
+import mathint
+
+mathint.help()
 ```
 
 ### [Mr.nope](https://github.com/mrprogrammer2938) Account...
