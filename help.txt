@@ -1,0 +1,9 @@
+Installing:
+           ./setup
+--------------------------Usage On Python!----------------------------------
+Usage:
+       import mathint
+        
+read Help :
+  
+          mathint.help()
