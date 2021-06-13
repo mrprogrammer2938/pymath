@@ -12,6 +12,7 @@ if system == 'Linux':
   os.system("sudo apt install python")
   os.system("sudo apt install python3")
   os.system("chmod a+x mathint.py")
+  os.system("chmod +x uninstall.sh")
   os.system("sudo cp mathint.py /usr/local/bin")
   os.system("sudo cp mathint.py /usr/lib/python3.6")
   os.system("sudo cp .mathint /usr/local")
@@ -26,9 +27,10 @@ elif system == 'Win32':
     sys.exit()
 # setup on Mac Os
 elif system == 'Mac':
-     os.system("sudo apt install python")
-     os.system("sudo apt install python3")
+    os.system("sudo apt install python")
+    os.system("sudo apt install python3")
     os.system("chmod a+x mathint")
+    os.system("chmod +x uninstall.sh")
     os.system("sudo cp mathint.py /usr/local/bin")
     os.system("sudi cp mathint.py /usr/lib/python3.6")
     time.sleep(2)
@@ -36,5 +38,5 @@ elif system == 'Mac':
     sys.exit()
 # This programm run on: Linux,Windows,MacOs
 else:
-    print("This programm run as : Windows,Linux,MacOs Platform!")
+    print("\nThis programm run as : Windows,Linux,MacOs Platform!\n")
     sys.exit()
