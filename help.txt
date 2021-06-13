@@ -1,9 +1,15 @@
+This code write by Mr.nope
+--------------------------------------------------------------------------------
 Installing:
+
+            git clone https://github.com/mrprogrammer2938/pymath
+            
+            cd pymath
+            
+            bash install.sh
+            
            ./setup
---------------------------Usage On Python!----------------------------------
-Usage:
-       import mathint
-        
-read Help :
-  
-          mathint.help()
+--------------------------------------------------------------------------------
+Uninstalling:
+              ./uninstall
+--------------------------------------------------------------------------------
